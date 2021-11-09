@@ -1,0 +1,21 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: .5em;
+}
+
+.lista{
+    background-color: violet;
+    height: 40px;
+    gap: 1em;
+    display: flex;
+    list-style-type: none;
+
+}
+.lista li{
+    display:flex;
+}
+
+.lista li::before{
+    content: "🐱‍👓🐱‍🏍"
+}
